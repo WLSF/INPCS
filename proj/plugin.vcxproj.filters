@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\shared\samp_sdk\amx\amx.h">
+      <Filter>sdk\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\samp_sdk\amx\sclinux.h">
+      <Filter>sdk\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\incs\sdk\plugincommon.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{80bb2565-9a1a-4b26-95b5-5c7472d42d4f}</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="sdk\amx">
+      <UniqueIdentifier>{7d84a741-c910-417d-ba5f-7b7c61e2d179}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\incs\sdk\amxplugin.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

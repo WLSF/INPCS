@@ -1,0 +1,8 @@
+LIBRARY	"plugin"
+EXPORTS
+	Supports
+	Load
+	Unload
+	AmxUnload
+	AmxLoad
+	ProcessTick
