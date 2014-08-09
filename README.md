@@ -6,9 +6,10 @@ para inicialização e configuração de rotina. Os bots são criados através d
 rotineiras, assim aliviando o processamento geral, e permitindo a continuação das demais tarefas do pawn.
 
 
-- INPCS/main.cpp
 Métodos de aquisição para o pawn.
 ---------------------------------
+
+- INPCS/main.cpp
 
 -SetNPCVelocity
 -SetNPCPos
